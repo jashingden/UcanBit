@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@color/actionbar_normal_bg"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/BtnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/app_logo"/>
+
+    <include
+        android:id="@+id/ModeGroup"
+        layout="@layout/coin_mode_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/BtnRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_setup_white"/>
+
+</RelativeLayout>

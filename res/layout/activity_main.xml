@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/activity_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/content_bottom_menu">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/content_bottom_menu"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_menu_height"
+            android:layout_alignParentBottom="true"
+            android:background="#FF202020"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

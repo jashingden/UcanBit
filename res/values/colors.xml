@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="version_color">#FFFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_light">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="light_blue">#FF0061A5</color>
+    <color name="deep_gray">#FF232323</color>
+    <color name="cyan">#FF00FFFF</color>
+    <color name="gray">#FF888888</color>
+    <color name="selected_font_color">#FF0C8BCF</color>
+
+    <color name="actionbar_normal_bg">#FF494949</color>
+    <color name="content_normal_bg">#FFEEEEEE</color>
+
+</resources>

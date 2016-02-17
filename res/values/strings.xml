@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UcanBit</string>
+
+    <string name="name_huobi">火币网</string>
+    <string name="name_okcoin">OKCoin</string>
+    <string name="name_bitstamp">BITSTAMP</string>
+
+    <string name="name_noapi">NO API</string>
+</resources>

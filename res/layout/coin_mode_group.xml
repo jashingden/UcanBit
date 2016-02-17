@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/coin_mode_radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <RadioButton
+        android:id="@+id/buttonBTC"
+        style="@style/coin_mode_radio_button"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:layout_weight="1"
+        android:checked="true"
+        android:text="BTC" />
+
+    <RadioButton
+        android:id="@+id/buttonLTC"
+        style="@style/coin_mode_radio_button"
+     	android:layout_width="60dp"
+     	android:layout_height="36dp"
+        android:layout_weight="1"
+        android:text="LTC" />
+
+</RadioGroup>
